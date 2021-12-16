@@ -20,15 +20,21 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+project.xcworkspace
+.bundle/
+vendor/
 
 # Android/IntelliJ
 #
-build/
 .idea
 .gradle
 local.properties
 *.iml
 *.hprof
+
+# Visual Studio Code
+#
+.vscode/
 
 # node.js
 #
@@ -58,3 +64,14 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+ios/*.app.dSYM.zip
+ios/b-sharpe-certs/
+output/
+
+android/.project
+android/app/.project
+android/app/.settings/org.eclipse.buildship.core.prefs
+android/.settings/org.eclipse.buildship.core.prefs
+android/app/.classpath
+/android/fastlane/google-service-account-key.json
