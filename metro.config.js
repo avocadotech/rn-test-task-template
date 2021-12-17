@@ -6,6 +6,7 @@
  */
 
 module.exports = {
+  maxWorkers: 2,
   transformer: {
     getTransformOptions: async () => ({
       transform: {
