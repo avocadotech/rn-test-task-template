@@ -7,7 +7,11 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "watch": "tsc -w --skipLibCheck",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "code:check": "tsc --skipLibCheck --noEmit && yarn lint",
+    "start:ios": "react-native run-ios",
+    "start:android": "react-native run-android"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.14",
