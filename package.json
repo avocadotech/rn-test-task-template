@@ -9,7 +9,7 @@
     "test": "jest",
     "watch": "tsc -w --skipLibCheck",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "code:check": "tsc --skipLibCheck --noEmit && yarn lint",
+    "code:check": "tsc --skipLibCheck --noEmit && yarn lint"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.14",

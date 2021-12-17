@@ -1,3 +1,9 @@
+Install dependencies with 
+yarn
+
+for ios also from /ios directory off the project run
+pod install 
+
 To start metro (for some environments it may not start with executing android or ios command and stuck):
 yarn start
 
