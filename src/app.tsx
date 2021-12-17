@@ -7,8 +7,8 @@ import {
   Text,
   View,
 } from 'react-native';
-
 import { QueryClient, QueryClientProvider } from 'react-query';
+
 import { configureStore } from './store/configure-store';
 import { RNPaperTheme } from './constants';
 
